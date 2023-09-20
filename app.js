@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Connect to MongoDB (replace 'mongodb://localhost:27017/myapp' with your MongoDB URI)
 mongoose
-  .connect('mongodb://0.0.0.0:27017/myapp', {
+  .connect('mongodb+srv://mrunagabhane:mrunagabhane@cluster0.igcesup.mongodb.net/Iconic?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
